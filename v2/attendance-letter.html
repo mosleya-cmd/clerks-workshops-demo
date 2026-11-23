@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Supervisor Approval Letter</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --red:#a51417; --red-dark:#7d0f12; --gold:#f1b434; --ink:#1f1f1f; --ink-2:#4a4c4e;
+    --rule:#dcdcdc; --wash:#f8f8f8; --warm:#faf7ef; --paper:#fff;
+    --serif:"Libre Baskerville",Georgia,serif; --sans:"Source Sans 3","Source Sans Pro",Arial,sans-serif;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--wash);color:var(--ink);font:17px/1.55 var(--sans)}
+  a{color:var(--red)}
+  .cx-preview-bar{position:sticky;top:0;z-index:10;display:flex;flex-wrap:wrap;gap:.25rem 1rem;align-items:center;justify-content:space-between;
+    background:#1f1f1f;color:#fff;font:14px/1.4 Arial,sans-serif;padding:.55rem 16px}
+  .cx-preview-bar strong{color:var(--gold)} .cx-preview-bar a{color:#fff}
+  header.site{background:var(--red);color:#fff;padding:14px 16px}
+  header.site .wrap{max-width:1080px;margin:0 auto;display:flex;align-items:baseline;gap:.75rem;flex-wrap:wrap}
+  header.site b{font-family:var(--serif);font-size:1.15rem}
+  header.site span{opacity:.85;font-size:.95rem}
+  main{max-width:1080px;margin:0 auto;padding:28px 16px 48px}
+  h1{font-family:var(--serif);font-size:clamp(1.6rem,3.5vw,2.2rem);line-height:1.2;margin:.2rem 0 .4rem}
+  .intro{color:var(--ink-2);max-width:62ch;margin:0 0 1.5rem}
+  .layout{display:grid;grid-template-columns:minmax(0,340px) minmax(0,1fr);gap:24px;align-items:start}
+  @media (max-width:860px){.layout{grid-template-columns:minmax(0,1fr)}}
+  .panel{background:var(--paper);border:1px solid var(--rule);border-top:4px solid var(--red);padding:18px}
+  .panel h2{font-family:var(--serif);font-size:1.1rem;margin:0 0 .75rem}
+  label{display:block;font-weight:600;font-size:.95rem;margin:.85rem 0 .25rem}
+  label small{font-weight:400;color:var(--ink-2)}
+  input,select,textarea{width:100%;font:inherit;font-size:1rem;padding:.5rem .6rem;border:1px solid #b1b1b1;border-radius:3px;background:#fff;color:var(--ink)}
+  textarea{min-height:5.5rem;resize:vertical}
+  input:focus,select:focus,textarea:focus{outline:3px solid var(--gold);outline-offset:1px;border-color:var(--ink)}
+  .actions{display:flex;flex-wrap:wrap;gap:.6rem;margin:1rem 0 .25rem}
+  button{font:inherit;font-weight:700;padding:.6rem 1.1rem;border-radius:3px;cursor:pointer;border:2px solid var(--red)}
+  .btn-primary{background:var(--red);color:#fff} .btn-primary:hover{background:var(--red-dark);border-color:var(--red-dark)}
+  .btn-outline{background:transparent;color:var(--red)} .btn-outline:hover{background:var(--red);color:#fff}
+  button:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+  .status{min-height:1.4em;font-size:.95rem;color:var(--ink-2)}
+  .letter{background:var(--paper);border:1px solid var(--rule);padding:clamp(20px,4vw,48px);font-family:var(--serif);font-size:1rem;line-height:1.7}
+  .letter p{margin:0 0 1rem} .letter ul{margin:0 0 1rem;padding-left:1.25rem} .letter li{margin:.25rem 0}
+  .fill{background:var(--warm);border-bottom:1px dashed #c9a43a;padding:0 .15em}
+  .fill.done{background:transparent;border-bottom:0;padding:0}
+  .slot{border:1px dashed #b1b1b1;background:#fafafa;padding:.6rem .8rem;color:var(--ink-2);font:15px/1.5 var(--sans);margin-top:1.25rem}
+  .sig{margin-top:1.5rem}
+  footer{max-width:1080px;margin:0 auto;padding:0 16px 32px;color:var(--ink-2);font-size:.95rem}
+  @media print{
+    body{background:#fff;font-size:12pt}
+    .cx-preview-bar,header.site,h1,.intro,.panel,.slot,footer{display:none!important}
+    main{padding:0;max-width:none} .layout{display:block}
+    .letter{border:0;padding:0}
+    .fill{background:transparent;border:0;padding:0}
+  }
+</style>
+</head>
+<body>
+<div class="cx-preview-bar" role="region" aria-label="Sample notice">
+  <span><strong>Sample, version 2</strong> &middot; supervisor approval letter &middot; on the live site this would be a page or a Word/PDF download &middot; placeholders in [brackets]</span>
+  <a href="index.html">&larr; Back to the workshop series</a>
+</div>
+
+<header class="site"><div class="wrap"><b>WashU Continuing &amp; Professional Studies</b><span>Extend(Ed)</span></div></header>
+
+<main id="main">
+  <h1>Supervisor approval letter</h1>
+  <p class="intro">Use this letter to ask your supervisor for approval to attend a 2027 municipal clerks workshop. Fill in the boxes, check the letter, then copy it into an email or print it.</p>
+
+  <div class="layout">
+    <form class="panel" id="f" aria-label="Fill in your letter" onsubmit="return false">
+      <h2>Your details</h2>
+      <label for="ws">Workshop</label>
+      <select id="ws">
+        <option value="0">Workshop 1 &middot; Feb 10, 2027 &middot; Records Management and Compliance</option>
+        <option value="1">Workshop 2 &middot; May 12, 2027 &middot; Organizational Change in Practice</option>
+        <option value="2">Workshop 3 &middot; Aug 11, 2027 &middot; Missouri Ethics Commission and Public Accountability</option>
+        <option value="3">Workshop 4 &middot; Nov 10, 2027 &middot; Communication in Organizations and Public Settings</option>
+      </select>
+      <label for="sup">Supervisor's name</label>
+      <input id="sup" autocomplete="off" placeholder="e.g. Mayor Smith">
+      <label for="why">How it applies to your job <small>(one sentence)</small></label>
+      <textarea id="why" placeholder="e.g. I handle our public records requests and retention schedule."></textarea>
+      <label for="name">Your name</label>
+      <input id="name" autocomplete="name">
+      <label for="title">Your title</label>
+      <input id="title" autocomplete="organization-title" placeholder="e.g. City Clerk">
+      <label for="city">City or organization</label>
+      <input id="city" autocomplete="organization" placeholder="e.g. City of Springfield">
+      <div class="actions">
+        <button type="button" class="btn-primary" id="copy">Copy letter</button>
+        <button type="button" class="btn-outline" id="print">Print or save as PDF</button>
+      </div>
+      <p class="status" id="status" role="status" aria-live="polite"></p>
+    </form>
+
+    <article class="letter" id="letter" aria-label="Letter preview">
+      <p><span id="o-date"></span></p>
+      <p>Dear <span class="fill" data-f="sup">[supervisor's name]</span>,</p>
+      <p>I'd like your approval to attend <strong><span id="o-ws"></span></strong>, a live online workshop on <span id="o-date2"></span>, [10:00 a.m. to 12:00 p.m.] Central. It is part of the 2027 workshop series for municipal clerks offered by Washington University in St. Louis's School of Continuing &amp; Professional Studies, in partnership with the Missouri City Clerks and Finance Officers Association (MoCCFOA).</p>
+      <p>Why I'd like to attend:</p>
+      <ul>
+        <li><strong>It applies to my work.</strong> <span class="fill" data-f="why">[one sentence on how the topic applies to your job]</span></li>
+        <li><strong>It counts toward my certification.</strong> The workshop earns 1 continuing education point for clerks [toward MoCCFOA and/or IIMC credit].</li>
+        <li><strong>It's low cost, with no travel.</strong> The fee is [$50]. The workshop is held on Zoom, so I'll be away from my regular work for about two hours.</li>
+      </ul>
+      <p>Registration and payment are online by card. [If the city prefers to pay by invoice or purchase order, Extend(Ed) can arrange it.] After the workshop I'm glad to share what I learn with the office.</p>
+      <p>Workshop details: caps.washu.edu/[municipal-clerks page]. Questions about registration can go to Extend(Ed) at capsextended@wustl.edu.</p>
+      <p>Thank you for considering this request.</p>
+      <p class="sig"><span class="fill" data-f="name">[your name]</span><br><span class="fill" data-f="title">[your title]</span><br><span class="fill" data-f="city">[city or organization]</span></p>
+      <p class="slot"><strong>Note for reviewers:</strong> the bracketed items in plain text (time, credit, fee, invoice option, page URL) are still to confirm. The yellow fields are filled in by the clerk.</p>
+    </article>
+  </div>
+</main>
+<footer>Extend(Ed) &middot; Washington University in St. Louis &middot; <a href="mailto:capsextended@wustl.edu">capsextended@wustl.edu</a></footer>
+
+<script>
+(function(){
+  var W = [
+    {t:"Records Management and Compliance", d:"Wednesday, February 10, 2027"},
+    {t:"Organizational Change in Practice", d:"Wednesday, May 12, 2027"},
+    {t:"Missouri Ethics Commission and Public Accountability", d:"Wednesday, August 11, 2027"},
+    {t:"Communication in Organizations and Public Settings", d:"Wednesday, November 10, 2027"}
+  ];
+  var $ = function(id){ return document.getElementById(id); };
+  var blanks = {};
+  document.querySelectorAll('.fill').forEach(function(el){ blanks[el.dataset.f] = el.textContent; });
+
+  function render(){
+    var w = W[+$('ws').value] || W[0];
+    $('o-ws').textContent = w.t;
+    $('o-date2').textContent = w.d;
+    $('o-date').textContent = new Date().toLocaleDateString('en-US',{year:'numeric',month:'long',day:'numeric'});
+    document.querySelectorAll('.fill').forEach(function(el){
+      var v = ($(el.dataset.f).value || '').trim();
+      el.textContent = v || blanks[el.dataset.f];
+      el.classList.toggle('done', !!v);
+    });
+  }
+  ['ws','sup','why','name','title','city'].forEach(function(id){
+    $(id).addEventListener('input', render); $(id).addEventListener('change', render);
+  });
+
+  function letterText(){
+    var clone = $('letter').cloneNode(true);
+    clone.querySelectorAll('.slot').forEach(function(n){ n.remove(); });
+    clone.querySelectorAll('br').forEach(function(b){ b.replaceWith('\n'); });
+    var out = [];
+    clone.querySelectorAll('p, li').forEach(function(n){
+      if (n.tagName === 'P' && n.closest('li')) return;
+      var s = n.textContent.replace(/[ \t\r]+/g,' ').replace(/ ?\n ?/g,'\n').trim();
+      if (s) out.push(n.tagName === 'LI' ? '- ' + s : s);
+    });
+    return out.join('\n\n');
+  }
+  $('copy').addEventListener('click', function(){
+    var txt = letterText();
+    var done = function(){ $('status').textContent = 'Letter copied. Paste it into an email to your supervisor.'; };
+    var fallback = function(){
+      var ta = document.createElement('textarea'); ta.value = txt; ta.setAttribute('readonly','');
+      ta.style.position='fixed'; ta.style.opacity='0'; document.body.appendChild(ta); ta.select();
+      try { document.execCommand('copy'); done(); } catch(e){ $('status').textContent = 'Copy didn’t work here. Select the letter text and copy it manually.'; }
+      ta.remove();
+    };
+    try { if (navigator.clipboard && window.isSecureContext) { navigator.clipboard.writeText(txt).then(done, fallback); } else { fallback(); } }
+    catch(e){ fallback(); }
+  });
+  $('print').addEventListener('click', function(){ window.print(); });
+  render();
+})();
+</script>
+</body>
+</html>
